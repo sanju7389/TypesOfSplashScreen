@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:splachscreentype/src/animation_splashscreen/animation_splash.dart';
 import 'package:splachscreentype/src/splash_three/splash_three.dart';
 import 'package:splachscreentype/src/splash_two/splashscreen_two.dart';
 import 'package:splachscreentype/src/splashscren_one/splash_one.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashThree()
+      home: AnimateionSplash()
+      //SplashThree()
       //SplashScreenTwo()
       //SplashScreenOne(),
     );
