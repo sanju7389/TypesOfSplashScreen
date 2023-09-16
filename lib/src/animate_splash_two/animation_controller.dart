@@ -20,7 +20,7 @@ class SplashTwoController extends GetxController
     await Future.delayed(Duration(milliseconds: 5000));
      // dispose a full screen and tower and time bar
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,overlays: SystemUiOverlay.values);
-    Get.to(Home());
+    Get.offAll(Home());
 
   }
 }
