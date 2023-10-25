@@ -41,8 +41,14 @@ class _SplashThreeState extends State<SplashThree> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      body: Center(
-        child: Image(image: AssetImage('assets/image/forgetpassword.png'),),
+      body: Column(
+        children: [
+          Text("demo git code"),
+          Text("ok done"),
+          Center(
+            child: Image(image: AssetImage('assets/image/forgetpassword.png'),),
+          ),
+        ],
       ),
 
 
